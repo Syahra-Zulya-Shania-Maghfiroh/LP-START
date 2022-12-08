@@ -95,14 +95,73 @@ body {
 .contact {
     
 }
+.task {
+}
+.team .card {
+    box-shadow: 3px 5px 8px 1px grey;
+}
 .wrapper-5 polaroid {
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* responsive */
+@media screen and (max-width: 1024px){
+    .welcome .picture img{
+        width: 520px;
+    }
+    .patners .contact img {
+        width: 120px;
+    }
+    .chat img {
+        width: 520px;
+    }
+    .task img {
+        width: 520px;
+    }
 }
 @media screen and (max-width: 768px){
     .welcome .picture img{
         width: 320px;
     }
+    .patners .contact img {
+        width: 80px;
+    }
+    .chat img {
+        width: 320px;
+    }
+    .task img {
+        width: 320px;
+    }
 }
-@media screen and (max-width: 425px){}
+   
+@media screen and (max-width: 425px){
+    .welcome .picture img {
+        width: 320px;
+        background-position: top center;
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    .patners .contact img {
+        width: 50px;
+    }
+    .chat img {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    .task img {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    .team .card {
+        width: 250px;
+        margin: 0 0 10px 0;
+    }
+    .footer .foot {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 320px){}
